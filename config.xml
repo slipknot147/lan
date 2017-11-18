@@ -8,5 +8,8 @@
         PhoneGap Team
     </author>
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="https://www.000webhost.com" />
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+    <allow_navigation href="*" />
+    <allow-intent href="*" />
 </widget>
