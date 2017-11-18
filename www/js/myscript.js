@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 		$.ajax({
 			type:'POST',
-			url:'form-mail.php',
+			url:'https://slipknot147.000webhostapp.com/form-mail.php',
 			data:dato,
 			success:function(){
 				alert('Mesanje enviado');
