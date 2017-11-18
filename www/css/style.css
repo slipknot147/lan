@@ -1,0 +1,143 @@
+*{
+	font-family:Helvetica;
+}
+body{
+	margin:0;
+	padding:0;
+	padding-top:50px;
+	background:#040000;
+}
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:50px;
+}
+
+#menu,#Mybody{
+	width:100%;
+	max-width:900px;
+	margin:auto;
+	background:#000;
+}
+#Mybody{
+	padding:0 15px;
+	box-sizing:border-box;
+}
+#menu{
+	height:100%;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:flex;
+	justify-content:center;
+	height:100%;
+}
+#menu ul li{
+	width:100%;
+	height:100%;
+}
+#menu ul li a{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-decoration:none;
+	color:#fff;
+	height:100%;
+	transition:all ease .3s
+}
+a.active, #menu ul li a:hover{
+	background:#b42428;
+}
+#menu ul li a img{
+	display:table;
+	width:auto;
+	height:32px;
+}
+#menu ul li a:hover,
+#menu ul li a:active,
+#menu ul li a:focus{
+	text-decoration:none;
+	color:#fff;
+}
+#Mybody img{
+	display:block;
+	max-width:100%;
+	height:auto;
+	margin:auto;
+}
+#Mybody *{
+	color:#fff;
+}
+#Mybody p{
+	margin:0;
+	padding:50px 0;
+	text-align:justify;
+	line-height: 22px;
+	font-size:14px;
+}
+#Mybody h1{
+	margin:0 -15px;
+	padding:15px;
+	text-align:justify;
+	background:#b42428;
+}
+[id^="seccion_"] section{
+	margin:0;
+	padding:50px 0;
+	text-align:justify;
+}
+[id^="seccion_"] ul{
+	padding-left:15px;
+}
+[id^="seccion_"] li{
+	margin-bottom:15px;
+	line-height: 22px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+label i{
+    color:#b42428!important;
+}
+input[type="text"],input[type="email"], textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    color:#000!important;
+}
+textarea{
+	min-width:100%;
+	max-width:100%;
+	min-height:200px;
+	max-height:350px;
+}
+input[type="submit"]{
+	display:table;
+	width:auto;
+	padding:10px 15px; 
+	margin:0 auto;
+	font-size:16px;
+	background:#b42428;
+	cursor:pointer;
+	border: none;
+    border-radius: 4px;
+	transition:background ease .3s;
+}
+input[type="submit"]:hover{
+	background:#750f12;
+}
+footer{
+	color:#fff;
+	text-align:center;
+	padding:15px;
+	margin:0;
+	background:#b42428;
+}
